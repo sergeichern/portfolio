@@ -31,6 +31,27 @@
     margin-top: 0.5rem;
   }
   
+  #toggle-dark {
+    display: block;
+    margin: 2rem auto;
+    padding: 0.6rem 1.4rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(90deg, #005bba, #ff6b3f);
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  #toggle-dark:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(90deg, #004999, #e45729);
+  }
+  
+  
   /* Sections */
   section {
     max-width: 900px;
@@ -82,3 +103,40 @@
     font-size: 0.9rem;
     margin-top: 3rem;
   }
+
+  body.dark-mode {
+    background-color: #1a1a1a;
+    color: #eee;
+  }
+  
+  header.dark-mode {
+    background: linear-gradient(120deg, #1a1a1a, #333);
+    color: #f0f0f0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  header h1.dark-mode {
+    color: #ff6b3f;
+  }
+  
+  header p.dark-mode {
+    color: #ccc;
+  }
+  
+  
+  section h2.dark-mode {
+    color: #ff6b3f;
+    border-bottom-color: #005bba;
+  }
+  
+  ul li.dark-mode {
+    background-color: #333;
+    color: #eee;
+    border-left-color: #005bba;
+  }
+  
+  footer.dark-mode {
+    background-color: #003366;
+    color: #ddd;
+  }
+  
