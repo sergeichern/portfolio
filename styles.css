@@ -1,0 +1,84 @@
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+    background-color: #fdfdfd;
+    color: #222;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    background: linear-gradient(to right, #005bba, #ff6b3f);
+    color: white;
+    text-align: center;
+    padding: 3rem 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    letter-spacing: 1px;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
+  
+  /* Sections */
+  section {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 0 2rem;
+  }
+  
+  section h2 {
+    font-size: 2rem;
+    color: #005bba;
+    border-bottom: 3px solid #ff6b3f;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Projects */
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  ul li {
+    background-color: #e8f1ff;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-left: 6px solid #ff6b3f;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  }
+  
+  ul li strong {
+    display: block;
+    font-size: 1.1rem;
+    color: #005bba;
+    margin-bottom: 0.3rem;
+  }
+  
+  /* Contact & Footer */
+  #contact a {
+    color: #ff6b3f;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #005bba;
+    color: white;
+    font-size: 0.9rem;
+    margin-top: 3rem;
+  }
