@@ -2,6 +2,10 @@
 Welcome to my personal portfolio! I'm a recent Computer Science graduate with hands-on experience in backend development, optimization tools, and full-stack web projects. This site is hosted via GitHub Pages and showcases a few highlights from my journey as a developer.
 
 🚀 Projects Featured
+🍽️ Calorie Tracker Web App  
+- Tech: React, Express, SQLite, USDA API  
+- Full-stack nutrition dashboard for logging and tracking daily intake  
+- Autocomplete food search, live progress visualization, and secure API proxy
 🗺️ Trent Class Finder
 - Tech: PHP, JavaScript, MySQL, HTML/CSS
 - Campus-wide web app for locating classrooms, cafeterias, and washrooms
